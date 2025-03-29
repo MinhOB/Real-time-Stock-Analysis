@@ -1,3 +1,7 @@
+# Tắt GPU, chỉ dùng CPU
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
 # Import thư viện
 import streamlit as st
 import pandas as pd
